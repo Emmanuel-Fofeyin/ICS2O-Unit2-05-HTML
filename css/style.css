@@ -1,5 +1,5 @@
 body {
-  background-color: #66fb2;
+  background-color: #f0ffff;
   font-size: 10pt;
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   color: black;
@@ -27,7 +27,7 @@ h3 {
   font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 16pt;
-  color: #0080ff;
+  color: #9400d3;
 }
 
 p.subheader {
@@ -37,7 +37,7 @@ p.subheader {
 
 div {
   font-weight: bold;
-  color: #e6d9e;
+  color: #000000;
   margin: 5px;
 }
 
