@@ -15,7 +15,7 @@ function calculate() {
 
    // process
   const pay = (hoursWorked * hourlyRate) * (1.00 - 0.18)
-  const taxes = (hours * hourlyRate) *  0.18
+  const taxes = (hoursWorked * hourlyRate) *  0.18
 
 
   // output
