@@ -21,5 +21,4 @@ function calculate() {
   // output
    document.getElementById('pay').innerHTML = 'Your pay will be: $' + (pay)
    document.getElementById('taxes').innerHTML = 'The government will take: $' + (taxes)
-
 }
