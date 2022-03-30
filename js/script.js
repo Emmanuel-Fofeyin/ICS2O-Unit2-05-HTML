@@ -14,12 +14,12 @@ function calculate() {
   const hourlyRate = document.getElementById("hourly-rate").value
 
    // process
-  const pay = (hoursWorked * hourlyRate) * (1.00 - 0.18)
-  const taxes = (hoursWorked * hourlyRate) *  0.18
+  const pay = (hoursWorked * hourlyRate) * (1.00 - 0.18) 
+  const taxes = (hoursWorked * hourlyRate) *  0.18  
 
-
+    
   // output
-  document.getElementById('pay').innerHTML = 'Your pay will be: ' + pay + ' $'
-  document.getElementById('taxes').innerHTML = 'The government will take: ' + taxes + ' $'
+   document.getElementById('pay').innerHTML = 'Your pay will be: $' + (pay)
+   document.getElementById('taxes').innerHTML = 'The government will take: $' + (taxes)
 
 }
