@@ -6,7 +6,7 @@
 
 'use strict'
 /**
- * This function calculates users pay and goverment intake from pay.
+ * This function calculates users pay and government intake from pay.
  */
 function calculate() {
   // input
